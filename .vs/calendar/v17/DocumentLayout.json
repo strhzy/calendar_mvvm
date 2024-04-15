@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Alex\\source\\repos\\calendar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C16FDE89-0C22-412E-9119-22CF6CA85E4C}|calendar\\calendar.csproj|c:\\users\\alex\\source\\repos\\calendar\\calendar\\view\\dayspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C16FDE89-0C22-412E-9119-22CF6CA85E4C}|calendar\\calendar.csproj|solutionrelative:calendar\\view\\dayspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C16FDE89-0C22-412E-9119-22CF6CA85E4C}|calendar\\calendar.csproj|c:\\users\\alex\\source\\repos\\calendar\\calendar\\calendar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C16FDE89-0C22-412E-9119-22CF6CA85E4C}|calendar\\calendar.csproj|solutionrelative:calendar\\calendar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{C16FDE89-0C22-412E-9119-22CF6CA85E4C}|calendar\\calendar.csproj|c:\\users\\alex\\source\\repos\\calendar\\calendar\\view\\cardsport.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C16FDE89-0C22-412E-9119-22CF6CA85E4C}|calendar\\calendar.csproj|solutionrelative:calendar\\view\\cardsport.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C16FDE89-0C22-412E-9119-22CF6CA85E4C}|calendar\\calendar.csproj|c:\\users\\alex\\source\\repos\\calendar\\calendar\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C16FDE89-0C22-412E-9119-22CF6CA85E4C}|calendar\\calendar.csproj|solutionrelative:calendar\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C16FDE89-0C22-412E-9119-22CF6CA85E4C}|calendar\\calendar.csproj|c:\\users\\alex\\source\\repos\\calendar\\calendar\\view\\cardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C16FDE89-0C22-412E-9119-22CF6CA85E4C}|calendar\\calendar.csproj|solutionrelative:calendar\\view\\cardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C16FDE89-0C22-412E-9119-22CF6CA85E4C}|calendar\\calendar.csproj|c:\\users\\alex\\source\\repos\\calendar\\calendar\\view\\dayspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C16FDE89-0C22-412E-9119-22CF6CA85E4C}|calendar\\calendar.csproj|solutionrelative:calendar\\view\\dayspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C16FDE89-0C22-412E-9119-22CF6CA85E4C}|calendar\\calendar.csproj|c:\\users\\alex\\source\\repos\\calendar\\calendar\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,36 +34,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "calendar",
-              "DocumentMoniker": "C:\\Users\\Alex\\source\\repos\\calendar\\calendar\\calendar.csproj",
-              "RelativeDocumentMoniker": "calendar\\calendar.csproj",
-              "ToolTip": "C:\\Users\\Alex\\source\\repos\\calendar\\calendar\\calendar.csproj",
-              "RelativeToolTip": "calendar\\calendar.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-15T10:56:36.733Z",
+              "DocumentIndex": 0,
+              "Title": "CardSport.xaml",
+              "DocumentMoniker": "C:\\Users\\Alex\\source\\repos\\calendar\\calendar\\View\\CardSport.xaml",
+              "RelativeDocumentMoniker": "calendar\\View\\CardSport.xaml",
+              "ToolTip": "C:\\Users\\Alex\\source\\repos\\calendar\\calendar\\View\\CardSport.xaml",
+              "RelativeToolTip": "calendar\\View\\CardSport.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-15T11:27:06.378Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "CardPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Alex\\source\\repos\\calendar\\calendar\\View\\CardPage.xaml",
+              "RelativeDocumentMoniker": "calendar\\View\\CardPage.xaml",
+              "ToolTip": "C:\\Users\\Alex\\source\\repos\\calendar\\calendar\\View\\CardPage.xaml",
+              "RelativeToolTip": "calendar\\View\\CardPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-15T11:03:47.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "DaysPage.xaml",
               "DocumentMoniker": "C:\\Users\\Alex\\source\\repos\\calendar\\calendar\\View\\DaysPage.xaml",
               "RelativeDocumentMoniker": "calendar\\View\\DaysPage.xaml",
               "ToolTip": "C:\\Users\\Alex\\source\\repos\\calendar\\calendar\\View\\DaysPage.xaml",
               "RelativeToolTip": "calendar\\View\\DaysPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-15T10:54:31.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-15T10:54:31.314Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\Alex\\source\\repos\\calendar\\calendar\\App.xaml",
               "RelativeDocumentMoniker": "calendar\\App.xaml",
@@ -71,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Alex\\source\\repos\\calendar\\calendar\\View\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "calendar\\View\\MainWindow.xaml.cs",
@@ -79,12 +92,11 @@
               "RelativeToolTip": "calendar\\View\\MainWindow.xaml.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAQwBQAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T10:49:58.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-15T10:49:58.743Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Alex\\source\\repos\\calendar\\calendar\\View\\MainWindow.xaml",
               "RelativeDocumentMoniker": "calendar\\View\\MainWindow.xaml",

@@ -7,11 +7,23 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="View\CardPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\CardSport.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\DaysPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="View\CardPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\CardSport.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="View\DaysPage.xaml">
       <SubType>Designer</SubType>
     </Page>
