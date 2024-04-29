@@ -7,27 +7,33 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="View\CardPage.xaml.cs">
+    <Compile Update="View\Day.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="View\CardSport.xaml.cs">
+    <Compile Update="View\Days.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="View\DaysPage.xaml.cs">
+    <Compile Update="View\Sport.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Sports.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="View\CardPage.xaml">
+    <Page Update="View\Day.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="View\CardSport.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="View\DaysPage.xaml">
+    <Page Update="View\Days.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Sport.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Sports.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

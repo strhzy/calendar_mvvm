@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "edRZnQ6EeoioZeroviRsZkGi1ttSyOoFlV25h89A3JkkjTLHm09p/g4fZyhRMkNUoOJcgVK+P8a+BWW13NeuQw==",
+  "dgSpecHash": "G5/3HC6oJWAEb9zMnAaaP8TF3/AFD8o9aEqa1+pP94mVtBZIWDLJHt8mAqX03SOms5J80Oz384NwxgSr+QqW6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alex\\source\\repos\\calendar\\calendar\\calendar.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\illid\\source\\repos\\calendar_CS\\calendar\\calendar.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\illid\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.77\\microsoft.xaml.behaviors.wpf.1.1.77.nupkg.sha512",
+    "C:\\Users\\illid\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

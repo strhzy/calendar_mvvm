@@ -9,9 +9,43 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="View\images\" />
-    <Folder Include="Model\" />
-    <Folder Include="ViewModel\" />
+    <None Remove="View\images\basketball.png" />
+    <None Remove="View\images\box.png" />
+    <None Remove="View\images\fitness.png" />
+    <None Remove="View\images\football.png" />
+    <None Remove="View\images\hockey.png" />
+    <None Remove="View\images\none.png" />
+    <None Remove="View\images\none_choice.png" />
+    <None Remove="View\images\tennis.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.77" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="View\images\basketball.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="View\images\box.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="View\images\fitness.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="View\images\football.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="View\images\hockey.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="View\images\none.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="View\images\tennis.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>
