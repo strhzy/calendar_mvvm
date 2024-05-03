@@ -18,17 +18,37 @@
                 <ColumnDefinition Width="5*"/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Button x:Name="fist_button" Content="-" Grid.Column="0"  FontSize="35">
+            <Button Style="{DynamicResource ButtonStyle1}" x:Name="fist_button" Content="-" Grid.Column="0"  FontSize="35">
                 <b:Interaction.Triggers>
                     <b:EventTrigger EventName="Click">
                         <b:CallMethodAction
                             TargetObject="{Binding}"
-                            MethodName="button2"/>  
+                            MethodName="button2"/>
                     </b:EventTrigger>
                 </b:Interaction.Triggers>
+                <Button.Triggers>
+                    <EventTrigger RoutedEvent="Button.MouseEnter">
+                        <EventTrigger.Actions>
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <ColorAnimation Storyboard.TargetProperty="(Button.Background).(SolidColorBrush.Color)" To="Cyan" Duration="0:0:0.25"/>
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger.Actions>
+                    </EventTrigger>
+                    <EventTrigger RoutedEvent="Button.MouseLeave">
+                        <EventTrigger.Actions>
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <ColorAnimation Storyboard.TargetProperty="(Button.Background).(SolidColorBrush.Color)" To="Teal" Duration="0:0:0.25"/>
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger.Actions>
+                    </EventTrigger>
+                </Button.Triggers>
             </Button>
             <TextBlock x:Name="date_of_textblock" Grid.Column="1" TextAlignment="Center" Text="{Binding MonthYearText}"/>
-            <Button x:Name="second_button" Content="+" Grid.Column="2" FontSize="35">
+            <Button Style="{DynamicResource ButtonStyle1}" x:Name="second_button" Content="+" Grid.Column="2" FontSize="35">
                 <b:Interaction.Triggers>
                     <b:EventTrigger EventName="Click">
                         <b:CallMethodAction
@@ -36,6 +56,26 @@
                             MethodName="button1"/>
                     </b:EventTrigger>
                 </b:Interaction.Triggers>
+                <Button.Triggers>
+                    <EventTrigger RoutedEvent="Button.MouseEnter">
+                        <EventTrigger.Actions>
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <ColorAnimation Storyboard.TargetProperty="(Button.Background).(SolidColorBrush.Color)" To="Cyan" Duration="0:0:0.25"/>
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger.Actions>
+                    </EventTrigger>
+                    <EventTrigger RoutedEvent="Button.MouseLeave">
+                        <EventTrigger.Actions>
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <ColorAnimation Storyboard.TargetProperty="(Button.Background).(SolidColorBrush.Color)" To="Teal" Duration="0:0:0.25"/>
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger.Actions>
+                    </EventTrigger>
+                </Button.Triggers>
             </Button>
         </Grid>
         <Frame x:Name="frame_main" Grid.Row="1" NavigationUIVisibility="Hidden" HorizontalAlignment="Center"/>

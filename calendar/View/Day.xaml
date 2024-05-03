@@ -15,13 +15,35 @@
             </Grid.RowDefinitions>
             <TextBlock x:Name="DayNumber" Grid.Row="0" TextAlignment="Center"/>
             <Image x:Name="ImageOfDay" Grid.Row="1" MaxWidth="70px" MaxHeight="70px"/>
-            <Button x:Name="ButtonDay" Grid.RowSpan="2" Background="Transparent" Content="{Binding day}" Click="ButtonDay_Click">
+            <Button Style="{DynamicResource ButtonStyle1}" x:Name="ButtonDay" Grid.RowSpan="2" Background="Transparent" Content="{Binding day}" Click="ButtonDay_Click" Height="80" Width="80">
                 <Button.ContextMenu>
                     <ContextMenu>
                         <MenuItem Header="Посмотреть день" Click="ContextMenu1_Click"/>
                         <MenuItem Header="Отчистить день" Click="ContextMenu2_Click"/>
                     </ContextMenu>
                 </Button.ContextMenu>
+                <Button.Triggers>
+                    <EventTrigger RoutedEvent="Button.MouseEnter">
+                        <EventTrigger.Actions>
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <DoubleAnimation Storyboard.TargetProperty="Height" From="80" To="100" Duration="0:0:0.2"/>
+                                    <DoubleAnimation Storyboard.TargetProperty="Width" From="80" To="100" Duration="0:0:0.2"/>
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger.Actions>
+                    </EventTrigger>
+                    <EventTrigger RoutedEvent="Button.MouseLeave">
+                        <EventTrigger.Actions>
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <DoubleAnimation Storyboard.TargetProperty="Height" From="100" To="80" Duration="0:0:0.2"/>
+                                    <DoubleAnimation Storyboard.TargetProperty="Width" From="100" To="80" Duration="0:0:0.2"/>
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger.Actions>
+                    </EventTrigger>
+                </Button.Triggers>
             </Button>
         </Grid>
     </Grid>

@@ -77,7 +77,7 @@ namespace calendar.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/calendar;V1.0.0.0;component/view/sport.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/calendar;component/view/sport.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\Sport.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
