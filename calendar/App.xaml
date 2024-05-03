@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:calendar"
              StartupUri="View/MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary Source="/View/Resources/Dictionary1.xaml"/>
     </Application.Resources>
 </Application>
